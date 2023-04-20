@@ -1,0 +1,8 @@
+github.com/pimvanhespen/go-pi-lcd1602 v0.0.0-20190131141158-a63b4ce9c9e1 h1:agGWkcKuLfapJ1nuVQoqTHKFCPeO85wk5xktO+P8j9Q=
+github.com/pimvanhespen/go-pi-lcd1602 v0.0.0-20190131141158-a63b4ce9c9e1/go.mod h1:jkb51sXCSIdPBqpTrtNQwvYW+jA9FcK9BvDtYINtB5U=
+github.com/stianeikeland/go-rpio v4.2.0+incompatible h1:CUOlIxdJdT+H1obJPsmg8byu7jMSECLfAN9zynm5QGo=
+github.com/stianeikeland/go-rpio v4.2.0+incompatible/go.mod h1:Sh81rdJwD96E2wja2Gd7rrKM+XZ9LrwvN2w4IXrqLR8=
+github.com/toxygene/gpiod-ky-040-rotary-encoder v1.0.4 h1:MEN/mpd1+U+4xmeYh25Gf/Ux5gnLy9QSPG8zjoc2am4=
+github.com/toxygene/gpiod-ky-040-rotary-encoder v1.0.4/go.mod h1:WYMTnMxf3RjRsLn9eTUX0bd1hMOPCacBoAWJaRY23yg=
+github.com/ziutek/emgo v0.0.0-20211205205814-168ccc21e67c h1:GTUBh4O07noY4W+qyIpRWUJ+ksV4nWxlJ36ooCbVj3k=
+github.com/ziutek/emgo v0.0.0-20211205205814-168ccc21e67c/go.mod h1:UwAOURUtKaukghyT/MWr/Oy6KYEc/dJy/ls12P0bC8I=
