@@ -1,11 +1,36 @@
-package button
+package main
 
 import (
-	"github.com/gpiotest/encoder"
+	"bufio"
+	"fmt"
+	"io"
+	"os/exec"
 )
 
 func main() {
-	for true {
-		encoder.
+	cmd := exec.Command("python3", "/Users/eertle/PycharmProjects/tuneHat/main.py")
+	stdout, err := cmd.StdoutPipe()
+	if err != nil {
+		panic(err)
+	}
+	stderr, err := cmd.StderrPipe()
+	if err != nil {
+		panic(err)
+	}
+	err = cmd.Start()
+	if err != nil {
+		panic(err)
+	}
+
+	go copyOutput(stdout)
+	go copyOutput(stderr)
+
+	cmd.Wait()
+}
+
+func copyOutput(r io.Reader) {
+	scanner := bufio.NewScanner(r)
+	for scanner.Scan() {
+		fmt.Println(scanner.Text())
 	}
 }
