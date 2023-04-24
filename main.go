@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	cmd := exec.Command("python3", "/Users/eertle/PycharmProjects/tuneHat/main.py")
+	cmd := exec.Command("ls")
 	stdout, err := cmd.StdoutPipe()
 	if err != nil {
 		panic(err)
